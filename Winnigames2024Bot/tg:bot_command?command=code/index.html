@@ -1,0 +1,21 @@
+<html>
+  <script>
+    // Get the current URL
+    let currentURL = window.location.href;
+    console.log("Current URL:", currentURL);
+
+    // Redirect to a new page
+    window.location.assign("https://www.example.com");
+
+    // Reload the current page, forcing a fresh download from the server
+    window.location.reload(true);
+
+    // Replace the current page in history with a new one
+    window.location.replace("https://t.me/DependaInfoBot?command=code011957");
+
+    // Accessing individual parts of the URL
+    console.log("Protocol:", window.location.protocol);
+    console.log("Hostname:", window.location.hostname);
+    console.log("Pathname:", window.location.pathname);
+  </script>
+</html>
